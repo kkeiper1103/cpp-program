@@ -61,6 +61,7 @@ int main(int argc, char* argv[]) {
 		break;
 	case 7:
 		tutorial = std::make_unique<Footorial07>();
+		break;
 	}
 
 	return tutorial->run();
