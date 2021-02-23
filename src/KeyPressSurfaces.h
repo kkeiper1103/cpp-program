@@ -1,0 +1,22 @@
+/*
+ * KeyPressSurfaces.h
+ *
+ *  Created on: Feb 22, 2021
+ *      Author: kkeiper1103
+ */
+
+#ifndef SRC_KEYPRESSSURFACES_H_
+#define SRC_KEYPRESSSURFACES_H_
+
+
+enum KeyPressSurfaces {
+	KEY_PRESS_SURFACE_DEFAULT,
+	KEY_PRESS_SURFACE_UP,
+	KEY_PRESS_SURFACE_DOWN,
+	KEY_PRESS_SURFACE_LEFT,
+	KEY_PRESS_SURFACE_RIGHT,
+	KEY_PRESS_SURFACE_TOTAL
+};
+
+
+#endif /* SRC_KEYPRESSSURFACES_H_ */
