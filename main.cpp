@@ -28,7 +28,8 @@ int main(int argc, char* argv[]) {
 		"Optimizing Surfaces",
 		"Loading a PNG via SDL_image",
 		"Using Viewports",
-		"Multithreading"
+		"Multithreading",
+		"OpenGL Quads"
 	};
 
 	for(int i=0; i < choices.size(); ++i) {
@@ -61,6 +62,9 @@ int main(int argc, char* argv[]) {
 		break;
 	case 7:
 		tutorial = std::make_unique<Footorial07>();
+		break;
+	case 8:
+		tutorial = std::make_unique<Footorial08>();
 		break;
 	}
 
